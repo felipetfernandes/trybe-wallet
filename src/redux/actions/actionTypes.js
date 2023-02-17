@@ -1,0 +1,7 @@
+export const SAVE_EMAIL = 'SAVE_EMAIL';
+export const LIST_CURRENCIES = 'SAVE_CURRENCIES';
+export const ADD_EXPENSE = 'ADD_EXPENSE';
+export const ADD_EXPENSE_COTE = 'ADD_EXPENSE_COTE';
+export const DEL_EXPENSE = 'DEL_EXPENSE';
+export const EDIT_EXPENSE = 'EDIT_EXPENSE';
+export const CHANGE_EXPENSE = 'CHANGE_EXPENSE';

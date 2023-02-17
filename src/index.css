@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+tr {
+  @apply bg-zinc-800 text-white text-base shadow-black shadow-md
+}
+
+th, td {
+  @apply border border-zinc-500 text-center p-1
+}
