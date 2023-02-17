@@ -49,7 +49,7 @@ class Login extends React.Component {
          gap-4"
         >
           <img
-            src="../src/assets/trybe_wallet_icon.png"
+            src="../../public/images/trybe_wallet_icon.png"
             alt="Trybe Wallet Icon"
             className="w-72 self-center"
           />

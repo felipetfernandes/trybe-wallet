@@ -55,7 +55,7 @@ class Table extends Component {
                     data-testid="edit-btn"
                     onClick={ () => this.editButton(expense) }
                   >
-                    <img src="../src/assets/create-outline.svg" alt="Edit Button" />
+                    <img src="../../public/images/edit.svg" alt="Edit Button" />
                   </button>
                   <button
                     className="w-6"
@@ -63,7 +63,7 @@ class Table extends Component {
                     data-testid="delete-btn"
                     onClick={ () => this.deleteButton(expense.id) }
                   >
-                    <img src="../src/assets/trash-outline.svg" alt="Delete Button" />
+                    <img src="../../public/images/trash.svg" alt="Delete Button" />
                   </button>
                 </td>
               </tr>

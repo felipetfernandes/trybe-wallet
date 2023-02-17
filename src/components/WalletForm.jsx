@@ -134,7 +134,7 @@ function WalletForm() {
         } }
         className="w-8 h-7"
       >
-        <img src="../src/assets/save-outline.svg" alt="Edit Button" />
+        <img src="../../public/images/save.svg" alt="Edit Button" />
       </button>
     </form>
   );

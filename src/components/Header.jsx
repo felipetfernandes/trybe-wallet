@@ -14,7 +14,7 @@ class Header extends Component {
       >
         <div className="flex items-center gap-2">
           <img
-            src="../src/assets/trybe_wallet_icon.png"
+            src="..../../public/images/trybe_wallet_icon.png"
             alt="Wallet Icon"
             className="w-10"
           />

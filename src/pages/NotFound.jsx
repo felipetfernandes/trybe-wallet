@@ -6,10 +6,10 @@ export default class NotFound extends Component {
     const { history } = this.props;
     return (
       <div
-        className="w-screen h-screen bg-zinc-700
-         flex flex-col items-center gap-20 pt-36"
+        className="w-screen h-screen bg-zinc-800
+         flex flex-col items-center gap-20"
       >
-        <img src="../src/assets/404.png" alt="" />
+        <img src="../../public/images/404.png" alt="" />
         <h1
           className="text-2xl text-white font-bold"
         >
