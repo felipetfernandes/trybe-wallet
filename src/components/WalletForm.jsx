@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { requestCote, changeExpense } from '../redux/actions';
+import save from '../img/save.svg';
 
 function WalletForm() {
   const [id, setId] = useState(0);
@@ -134,7 +135,7 @@ function WalletForm() {
         } }
         className="w-8 h-7"
       >
-        <img src="../../public/images/save.svg" alt="Save Button" />
+        <img src={ save } alt="Save Button" />
       </button>
     </form>
   );

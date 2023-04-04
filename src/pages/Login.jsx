@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { connect } from 'react-redux';
 import { saveEmail, listCurrencies } from '../redux/actions';
+import wallet from '../img/wallet.png';
 
 class Login extends React.Component {
   state = {
@@ -49,7 +50,7 @@ class Login extends React.Component {
          gap-4"
         >
           <img
-            src="../../public/images/trybe_wallet_icon.png"
+            src={ wallet }
             alt="Trybe Wallet Icon"
             className="w-72 self-center"
           />

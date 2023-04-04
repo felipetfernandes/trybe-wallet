@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
+import notFound from '../img/404.png';
 
 export default class NotFound extends Component {
   render() {
@@ -9,7 +10,7 @@ export default class NotFound extends Component {
         className="w-screen h-screen bg-zinc-800
          flex flex-col items-center gap-20"
       >
-        <img src="../../public/images/404.png" alt="" />
+        <img src={ notFound } alt="404 error, page not found" />
         <h1
           className="text-2xl text-white font-bold"
         >

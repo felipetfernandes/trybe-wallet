@@ -2,6 +2,8 @@ import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { deleteExpense, editExpense } from '../redux/actions';
+import trash from '../img/trash.svg';
+import edit from '../img/edit.svg';
 
 class Table extends Component {
   deleteButton = (id) => {
@@ -55,7 +57,7 @@ class Table extends Component {
                     data-testid="edit-btn"
                     onClick={ () => this.editButton(expense) }
                   >
-                    <img src="../../public/images/edit.svg" alt="Edit Button" />
+                    <img src={ edit } alt="Edit Button" />
                   </button>
                   <button
                     className="w-6"
@@ -63,7 +65,7 @@ class Table extends Component {
                     data-testid="delete-btn"
                     onClick={ () => this.deleteButton(expense.id) }
                   >
-                    <img src="../../public/images/trash.svg" alt="Delete Button" />
+                    <img src={ trash } alt="Delete Button" />
                   </button>
                 </td>
               </tr>

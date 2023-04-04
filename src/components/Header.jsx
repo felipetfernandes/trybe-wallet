@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import wallet from '../img/wallet.png';
 
 class Header extends Component {
   render() {
@@ -14,7 +15,7 @@ class Header extends Component {
       >
         <div className="flex items-center gap-2">
           <img
-            src="..../../public/images/trybe_wallet_icon.png"
+            src={ wallet }
             alt="Wallet Icon"
             className="w-10"
           />
